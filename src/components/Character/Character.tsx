@@ -1,4 +1,5 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
+import './style.css'
 
 interface CharacterProps {
 	status: string;
