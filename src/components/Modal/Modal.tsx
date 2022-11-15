@@ -22,7 +22,7 @@ const Modal : React.FC<ModalInterface> = ({ isShowing, hide, title, children}) =
                   Cerrar
                 </button>
               </div>
-              <div className="modal-body">{children}</div>
+              <div>{children}</div>
             </div>
           </div>
         </div>
